@@ -57,9 +57,9 @@ export const HeroSection = () => (
         <img
           src={profile.photo}
           alt={profile.name}
-          className="mx-auto h-40 w-40 md:h-48 md:w-48 rounded-full object-cover border-4 border-primary/40 shadow-lg opacity-0 animate-fade-in"
+          className="mx-auto h-36 w-36 md:h-44 md:w-44 rounded-full object-cover border-4 border-primary/40 shadow-lg opacity-0 animate-fade-in"
         />
-        <h1 className="text-[clamp(1.75rem,min(6svh,8vw),3.5rem)] font-bold tracking-tight">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
           <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
           <span className="text-primary opacity-0 animate-fade-in-delay-1"> {profile.firstName}</span>
           <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> {profile.lastName}</span>
